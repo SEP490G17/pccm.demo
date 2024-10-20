@@ -1,0 +1,15 @@
+@import "../../variables.scss";
+
+.layout__header {
+  padding-top: 15px !important;
+  background: $defaultWhite !important;
+  .header__icon {
+      background: $neutralThemeColor;
+      padding: 8px;
+      border-radius: 4px;
+      font-size: 15px;
+      color: $primaryThemeColor;
+      cursor: pointer;
+  }
+}
+

@@ -1,0 +1,53 @@
+.ant-image-mask {
+  border-radius: 0.5rem;
+}
+.invisible {
+  .ant-image-mask {
+    display: none;
+  }
+}
+.details-card {
+  .ant-card-body {
+    padding: 16px !important;
+  }
+  .divider {
+    border: 2px solid green;
+    height: 28px !important;
+  }
+  .details-table {
+    tr {
+      td {
+        padding: 4px 0;
+        font-size: 1.1em;
+      }
+      :last-child {
+        font-weight: bold;
+        text-align: end;
+      }
+    }
+  }
+  .details-service {
+    .details-service-body {
+      font-size: 1.1em;
+      svg {
+        font-size: 1.4em !important;
+      }
+    }
+    .ant-card-body {
+      padding: 8px !important;
+    }
+  }
+}
+.schedule-details {
+  .e-schedule {
+    .e-table-container {
+      .e-table-wrap {
+        .e-schedule-table {
+          col{
+            width: 80px !important;
+          }
+        }
+      }
+    }
+  }
+}
